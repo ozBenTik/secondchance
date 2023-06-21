@@ -8,9 +8,18 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+
+  #State
   get: ^4.6.5
+
+  #DI
   get_it: ^7.6.0
+
+  #Navigation
   go_router: ^8.0.3
+
+  #Logger
+  fimber: ^0.6.6
 
 dev_dependencies:
   lints: ^2.0.0
