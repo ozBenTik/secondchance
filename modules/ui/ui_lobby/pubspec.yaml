@@ -1,22 +1,23 @@
-name: common_dependencies
+name: ui_lobby
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+publish_to: 'none'
 
 environment:
   sdk: ^3.0.5
 
 # Add regular dependencies here.
 dependencies:
+  flutter:
+    sdk: flutter
 
-  #State
-  get: ^4.6.5
-  #DI
-  get_it: ^7.6.0
-  #Navigation
-  go_router: ^8.0.3
-  #Logger
-  fimber: ^0.6.6
+  common_dependencies:
+    path: ../../common_dependencies
+
+  models:
+    path: ../../models
+  ui_common:
+    path: ../ui_common
 
 dev_dependencies:
   lints: ^2.0.0

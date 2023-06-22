@@ -1,0 +1,4 @@
+class SvgAssets {
+
+  const SvgAssets();
+}

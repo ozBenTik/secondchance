@@ -1,0 +1,22 @@
+name: ui_common
+description: A starting point for Dart libraries or applications.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+  flutter: ">=3.3.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  common_dependencies:
+    path: ../../common_dependencies
+
+
+  #UI
+  flutter_svg: ^2.0.7
+  google_fonts: ^4.0.3
+
