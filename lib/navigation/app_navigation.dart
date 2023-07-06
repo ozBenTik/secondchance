@@ -3,11 +3,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:models/models.dart';
 import 'package:ui_common/widgets/error_page.dart';
-import 'package:ui_lobby/ui_lobby.dart';
+import 'package:ui_login/ui_login.dart';
+import 'package:ui_lobby/ui_lobby_route.dart';
 
 class AppNavigation {
   static final router = GoRouter(
-    initialLocation: AppPages.lobby.routePath,
+    initialLocation: AppPages.login.routePath,
     navigatorKey: Get.key,
     debugLogDiagnostics: kDebugMode,
     errorBuilder: (context, state) => ErrorPage(
@@ -31,6 +32,7 @@ class AppNavigation {
             );
           },
         ),
-        UiLobbyRoute.routes
+        UiLobbyRoute.route,
+        UiLoginRoute.routes
       ];
 }

@@ -1,0 +1,19 @@
+name: core
+description: A new Flutter package project.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common_dependencies:
+    path: ../common_dependencies
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
