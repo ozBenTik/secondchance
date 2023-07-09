@@ -4,7 +4,7 @@ import 'package:models/routes/routes_utils.dart';
 import 'src/lobby/lobby_page.dart';
 
 class UiLobbyRoute {
-  static GoRoute get routes => GoRoute(
+  static GoRoute get route => GoRoute(
         parentNavigatorKey: Get.key,
         name: AppPages.lobby.routeName,
         path: AppPages.lobby.routePath,

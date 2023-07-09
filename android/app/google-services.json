@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195407428964",
+    "project_id": "secondchance-41e3a",
+    "storage_bucket": "secondchance-41e3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195407428964:android:473036a1242c2e66438e71",
+        "android_client_info": {
+          "package_name": "com.ozben.secondchance.secondchance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195407428964-40hl64ogem9j5vpveu1e7inre23oitpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbWOXSjp3TR4Oq-d_ukveIGrKwCa8KI1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195407428964-40hl64ogem9j5vpveu1e7inre23oitpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

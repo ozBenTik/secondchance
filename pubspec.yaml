@@ -19,6 +19,8 @@ dependencies:
     path: ./modules/ui/ui_common
   ui_lobby:
     path: ./modules/ui/ui_lobby
+  ui_login:
+    path: ./modules/ui/ui_login
 
   flutter_native_splash: ^2.3.1
   flutter_launcher_icons: ^0.13.1

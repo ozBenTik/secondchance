@@ -7,7 +7,7 @@ The App will include the following screens:
 2. register
 3. settings
 4. profile (my published items, my found items, profile image etc)
-5. lobby (will include the items by a customized sorting order)
+5. home (will include the items by a customized sorting order)
 6. search for an item type (by item type and radius from the user)
 7. add/report item
 
